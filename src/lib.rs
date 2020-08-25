@@ -74,7 +74,7 @@ impl Universe {
         self.height
     }
 
-    pub fn cell(&self) -> *const Cell {
+    pub fn cells(&self) -> *const Cell {
         self.cells.as_ptr()
     }
     
